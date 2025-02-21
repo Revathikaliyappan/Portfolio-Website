@@ -10,7 +10,7 @@
 
 :root {
   --first-bg-dark:#f0f8ff;
-  --project-bg:#AA60C8;
+  --project-bg:#1128f5;
 }
 
 /* Custom Scroll Bar CSS */
@@ -21,13 +21,13 @@
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #AA60C8;
+  background: #1128f5;
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #AA60C8;
+  background:#1128f5;
 }
 /* navbar styling */
 nav {
@@ -39,7 +39,7 @@ nav {
   font-family: "Ubuntu", sans-serif;
 }
 nav.sticky {
-  background: #AA60C8;
+  background: #1128f5;
   padding: 13px 0;
 }
 nav .navbar {
@@ -73,7 +73,7 @@ nav .navbar .menu li {
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover {
-  color: #AA60C8;
+  color: #1128f5;
 }
 nav.sticky .menu a {
   color: #fff;
@@ -179,7 +179,7 @@ nav.sticky .menu-btn {
 .home .button button:hover {
   border-color: #000;
   /* color: #03e5fa; */
-  /* background: #AA60C8; */
+  /* background: #1128f5; */
 }
 /* .home-img {
   background-repeat: repeat;
@@ -209,7 +209,7 @@ section .title {
   margin-bottom: 40px;
 }
 section .title span {
-  color: #AA60C8;
+  color: #1128f5;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -262,27 +262,27 @@ section .button button {
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #AA60C8;
+  background: #1128f5;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover {
-  border-color: #AA60C8;
+  border-color: #1128f5;
   background-color: #fff;
   /* color: #03e5fa; */
 }
 /* section .button button a {
-  /* color: #AA60C8;
+  /* color: #1128f5;
 } */
 section .button button:hover a {
-  color: #AA60C8;
+  color: #1128f5;
 }
 
 /* My Skills CSS */
 .skills {
-  background: #ddcce4;
+  background: #1128f546;
 }
 .skills .content {
   padding: 40px 0;
@@ -465,19 +465,19 @@ section .button button:hover a {
   border-radius: 20px;
   font-size: 15px;
   font-weight: 800;
-  /* background: #AA60C8; */
-  color: #AA60C8;
+  /* background: #1128f5; */
+  color: #1128f5;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
-  border: 2px solid #AA60C8;
+  border: 2px solid #1128f5;
 }
 .pbutton>span.my_btn-solid {
   text-decoration: none;
 }
 /* Contact Me CSS */
 .contact {
-  background: #ddcce4;
+  background: #1128f546;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -520,20 +520,20 @@ section .content .title {
   border-radius: 20px;
   font-size: 15px;
   font-weight: 800;
-  background: #AA60C8;
+  background: #1128f5;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .form-btn:hover {
-  border-color: #AA60C8;
+  border-color: #1128f5;
   background-color: #fff;
-  color:#AA60C8
+  color:#1128f5
 }
 /* Footer CSS */
 footer {
-  background: #AA60C8;
+  background: #1128f5;
   padding: 15px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -556,7 +556,7 @@ footer .text span a:hover {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #AA60C8;
+  background: #1128f5;
   padding: 7px 12px;
   font-size: 18px;
   border-radius: 6px;
@@ -564,7 +564,7 @@ footer .text span a:hover {
   display: none;
 }
 .soc-med>div>a>i {
-  color: #AA60C8;
+  color: #1128f5;
 }
 .soc-med {
   margin: auto;
@@ -573,14 +573,14 @@ footer .text span a:hover {
   flex-direction: column;
 }
 .soc-med>div>a {
-  color: #AA60C8;
+  color: #1128f5;
   font-size: 20px;
 }
 .soc-med>div {
 margin: 15px;
 }
 .soc-med>div>a:hover {
-  color: #AA60C8;
+  color: #1128f5;
   font-weight: bold;
 }
 
@@ -705,6 +705,14 @@ margin: 15px;
     height: 350px;
     width: 350px;
   }
+  .skills-details .boxes {
+    width: 100%;
+    /* height:300px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+  }
 }
 
 @media (max-width: 1000px) {
@@ -772,11 +780,15 @@ margin: 15px;
     margin-bottom: 50px;
   }
   .skills-details .boxes {
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     width: 100%;
     display: flex;
     flex-direction: row;
+    /* width: 60%; */
+    gap: 50px;
+    margin: 0 auto;
+
   }
   .services .boxes .box {
     /* display: flex; */
